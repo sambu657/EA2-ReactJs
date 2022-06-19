@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+   } 
+.cuer{
+    background-color: rgb(134, 131, 113);
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+}    
+.bot, .bot1, .bot2, .bot3{
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background:linear-gradient(30deg, rgb(241, 241, 91), white );
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 20px;
+    color: black;
+}
+.bot{
+    margin-left: 18%;
+}
+.bot:hover, .bot1:hover, .bot2:hover, .bot3:hover{
+    background: rgb(93, 152, 185);
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 25px;
+}
+.titu{
+    color: black;
+    margin-top: 183px;
+    font-size: 55px;
+}

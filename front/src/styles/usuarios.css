@@ -1,0 +1,32 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    margin: 7%;
+    background-color: #FFFFFF80;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: auto;
+    margin-bottom: 35px;
+}    
+body{
+    background-image:url(../media/productos.jpg);
+    background-size: 120%;
+}
+.bton{
+    margin-left: 1100px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:linear-gradient(30deg, rgb(130, 219, 235), rgb(30, 110, 124) );
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 20px;
+    color: black;
+}

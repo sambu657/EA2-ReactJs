@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+   header{
+    width: 100%;
+    height: 86px;
+    overflow: hidden;
+    background:  rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+  .encabezado{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  header .nombre {
+    color: rgb(241, 232, 232);
+    font-size: 45px;
+    height: 50%;
+    float: left;
+    margin-left: 30px;
+  }
+  header nav{
+    float: right;
+    line-height: 200px;
+  }
+  header nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  header nav a:hover{
+    background: rgb(207, 207, 82);
+    border-radius: 100px;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+    float: right;
+    font-size: 16px;
+  } 
+  nav ul li a {
+    display: block; 
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+  } 
+  .google{
+    float: right;
+    margin-top: 23px;
+    margin-right: 15px;
+    display: block; 
+    margin-top: 20px;
+    color: rgb(128, 194, 238);
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(128, 194, 238);
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-style: italic;
+  }
+  .usuario{
+    margin-top: 25px;
+    color: rgb(1, 5, 8);
+    font-weight: bold;
+    margin-left: 530px;
+    padding: 31px;
+  }
+  .imgP{
+    margin-left: 60px;
+  }
+  .btnSal{
+    margin-left: 80px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background:linear-gradient(30deg, rgb(235, 239, 240), rgb(171, 185, 45) );
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 20px;
+    color: black;
+  }
+  .lin{
+    display: block; 
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+  }
+h1{
+  margin-left: 40%;
+  margin-top: 50px;
+  font-size: 60px;
+  color: black;
+  text-shadow: rgba(0, 0, 0, 4.1) 0px 0px 60px;
+}
+  .slider{
+    width: 95%;
+    margin: 30px;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  .slider ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: cambio 20s infinite alternate;
+  }
+  .slider li{
+    width: 100%;
+    list-style: none;
+  }
+.slider img{
+  width: 60%;
+  height: 445px;
+}
+@keyframes cambio{
+  0% {margin-left: 0;}
+  16%{margin-left: 0;}
+
+  21%{margin-left: -100%;}
+  37%{margin-left: -100%;}
+
+  42%{margin-left: -200%;}
+  58%{margin-left: -200%;}
+
+  63%{margin-left: -300%;}
+  79%{margin-left: -300%;}
+
+  84%{margin-left: -400%;}
+  100%{margin-left: -400%;}
+}
